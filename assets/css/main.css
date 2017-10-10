@@ -3073,6 +3073,10 @@
 				padding: 0 0.125em 0 0.375em;
 			}
 
+			#header .plus {
+			letter-spacing: 1px;
+			}
+
 			#header .logo:hover strong {
 				background-color: #ffffff;
 			}
@@ -3396,6 +3400,11 @@
 		visibility: hidden;
 		width: 100%;
 		z-index: 10002;
+	}
+
+	#menu .menuh1 {
+		text-transform: uppercase;
+		font-size: 1em;
 	}
 
 		#menu .inner {
