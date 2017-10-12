@@ -1,0 +1,47 @@
+ @import url('https://fonts.googleapis.com/css?family=Roboto');
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  min-height: 100%;
+}
+
+.container > div {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+.a {
+  background: #263238;
+}
+
+.b {
+  background: #f8f8f8;
+}
+
+.a > a {
+  color: #f8f8f8;
+}
+
+.b > a {
+  color: #263238;
+}
+
+a {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 500px) {
+  .container {
+    flex-direction: column;
+  }
+}
