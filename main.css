@@ -1,9 +1,72 @@
+html {
+	height:100%
+}
+
+body {
+	height:100%;
+}
+
+.main {
+	height:100%
+}
+  
 .a {
-	color: white;
-	background-color: black;
+	float: right;
+	display : flex;
+	justify-content : center;
+	align-items : center;
+	background-color:white;
+	height : 100%;
+	color : black;
 }
 
 .b {
+	float: left;
+	display : flex;
+	justify-content : center;
+	align-items : center;
+	background-color:black;
+	height : 100%;
+	color : white;
+}
+
+.aa {
 	color: black;
-	background-color: white;
+    font-family: 'Roboto', sans-serif;
+	font-size: 0.75em;
+	font-weight: 900;
+	text-transform: uppercase;	
+}
+
+.aa:hover {
+	color: black;
+}
+
+.aa:link {
+	text-decoration: none;
+  }
+
+.bb {
+	color: white;
+    font-family: 'Roboto', sans-serif;	
+	font-size: 0.75em;
+	font-weight: 900;
+	text-transform: uppercase;	
+}
+
+.bb:hover {
+	color: white;
+}
+
+.bb:link {
+	text-decoration: none;
+  }
+
+@media (max-width: 1200px) { 
+	.a {
+		height:50%
+	}
+	.b {
+		height:50%
+	}
 }
